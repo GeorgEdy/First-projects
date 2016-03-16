@@ -1,0 +1,239 @@
+html, body { background: #0B2358;
+    font-family: 'Open Sans', sans-serif;
+    font-size:15px;
+    width:1900px;
+}
+ 
+nav a {
+    text-decoration: none;
+    color:#F19028;  
+} 
+a > li:hover {
+    color:#F19028;  
+}
+nav > ul > li > a {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+nav > ul > li > a:hover {
+ color:#F19028;   
+}
+
+ a > h2 {
+    color:#001247;
+    text-decoration:none;
+}
+li:hover a {
+    color: #F19028;
+}
+
+header {
+    background: #00174B;
+    width:100%; 
+    border:1px solid #263A68;
+    position: relative;
+}
+
+nav {
+    background: #00174B;
+    width:100%;
+    height: 100px; 
+    border:1px solid #263A68;
+    position:relative;
+}
+
+.head {
+    margin-left:50px;
+    background: url('http://i67.tinypic.com/rqx74l.png') no-repeat;
+    background-size: 945px 709px;
+    width: 350px;
+    height: 125px;
+    float:left;
+    display: list-item;
+    list-style: none;
+    margin-top: 20px;
+}
+nav ul {
+    margin-top: 40px;
+    position:relative;
+}
+
+nav ul li {
+    display: inline-block;
+    
+    margin-right: 30px;
+    }
+    .sprite1, .sprite2, .sprite3, .sprite4 {
+        background: url('http://i63.tinypic.com/abkzs6.png')no-repeat;
+        background-size: 945px 709px;
+        border-right: 1px solid #DEE0E7;
+        width: 65px;
+        height: 65px;
+        float: left;
+    }
+
+    .sprite1    {   
+        border-left: 5px solid #F19028;
+        background-position: 15px 30px;
+        
+    }
+
+    .sprite2 {
+        border-left:5px solid #8BC53F;
+        background-position: 4px -25px;
+    }
+    .sprite3 {
+        border-left:5px solid #8989B0;
+        background-position: 15px -75px;
+    }
+    .sprite4 {
+        border-left:5px solid #5A769A;
+        background-position: 15px -130px;
+    } 
+    .text {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        width:500px;
+        color:#001247;
+        text-transform: uppercase;
+        margin-left:15px;
+        top:0;
+        line-height:60px;
+        padding:20px 0;
+    }
+
+nav .submenu {
+    display: none;
+    position: absolute;
+    margin-left:0;
+    width: 400px;
+    height:500px;
+
+}
+
+nav li:hover .submenu {
+    display: block;   
+}
+nav .submenu ul{
+    margin-top: 20px;
+    margin-left: -40px;
+    width:400px;
+
+}
+nav .submenu ul li {
+    background: #F7F9F9;   
+    display:block; 
+    border-top:1px solid #DEE0E7;
+    border-right:3px solid #DEE0E7;
+    height:65px;
+    width:400px;
+
+}
+
+nav .submenu li:first-child .submenu-page {
+    display: block;
+}
+nav .submenu li:hover {
+    background: #ffffff;
+    border-right:4px solid #FFFFFF;
+    display: block;
+ 
+}
+
+nav .submenu li .submenu-page {
+    display: none;
+    height: 630px;
+    width: 900px;
+    position: absolute;
+    left:443px;
+    right:auto;
+    color:#001247;
+    top:0;
+}
+
+nav .submenu li:hover .submenu-page {
+    display: block;
+}
+ nav.submenu li .submenu-page {
+    display: block;
+ }
+
+nav .submenu li .submenu-page  ul  {
+    font-family: 'Roboto Slab', serif;
+    border: 0;
+    background: #FFFFFF;
+    color:#FB620D;
+    margin-left:0;
+    width:480px;
+    top:-20px;
+}
+
+nav .submenu .submenu-page ul > li {
+    background: #FFFFFF;
+    border: none;
+    width: 470px;
+    height: 64.4px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: blue;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+ h2:after {
+    content: "";
+    display: block;
+    border: 1px solid #001247;
+    width: 15%;
+}
+
+.i1, .i2, .i3 {
+    font-family: 'Roboto Slab', serif;
+    width:100px;
+    border: 0;
+    background: #fff;
+    color:#FB620D;
+    text-decoration: underline;
+    padding-left: 10px;
+
+
+}
+
+.i1:before, .i2:before, .i3:before{
+    content:"";
+    background-size: 945px 709px;
+    display:block;
+    float:left;
+    margin-top:-5px;
+    padding-right: 20px;
+}
+
+.i1:before{  
+    background: url('http://i64.tinypic.com/qsjzt0.png') no-repeat 0 -2px;
+    background-size: 945px 709px;
+    width: 32px;
+    height: 40px;
+}
+
+.i2:before{  
+    background: url('http://i64.tinypic.com/qsjzt0.png') no-repeat -4px -140px;
+background-size: 945px 709px;
+    width: 32px;
+    height: 40px;
+}
+.i3:before{  
+    background: url('http://i64.tinypic.com/qsjzt0.png') no-repeat 0 -266px;
+    background-size: 945px 709px;
+    width: 30px;
+    height: 40px;
+}
+footer {
+    height:100px;
+    width:100%;
+    top:100%;
+}
