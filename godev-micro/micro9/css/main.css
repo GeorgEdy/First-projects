@@ -1,7 +1,0 @@
-.add-btn {
-    display: none;
-}
-
-#the-table tr:last-child  .add-btn {
-    display: inline;
-}
